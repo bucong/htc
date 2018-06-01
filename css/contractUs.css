@@ -1,0 +1,87 @@
+
+/*联系我们*/
+.contractUs{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 64px 0 200px;
+}
+.contractUs .title{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.title h3{
+    height:48px;
+    line-height:48px;
+    font-size:34px;
+    font-family:PingFangSC-Regular;
+    color:rgba(76,81,85,1);
+    margin: 0 auto;
+    font-weight: normal;
+}
+.title h3:before{
+    vertical-align: 20%;
+    display: inline-block;
+    content: '';
+    width:100px;
+    height:1px;
+    margin-right: 20px;
+    background:rgba(216,216,216,1);
+}
+.title h3:after{
+    vertical-align: 20%;
+    display: inline-block;
+    content: '';
+    width:100px;
+    height:1px;
+    margin-left: 20px;
+    background:rgba(216,216,216,1);
+}
+.title .sec-title{
+    height:25px;
+    line-height:26px;
+    font-size:22px;
+    font-family:Ubuntu;
+    color:rgba(197,199,203,1);
+    margin: 10px 0 30px;
+}
+
+.contractUs .list{
+    padding: 30px 83px 0px 82px;
+    overflow: hidden;
+}
+.contractUs .list .item{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 0 18px 0 17px;
+    padding:35px 20px 20px 20px;
+}
+.contractUs .list .item:after{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: rgb(216,216,216);
+}
+.contractUs .item img{
+    float: left;
+}
+.contractUs .item span{
+    display: inline-block;
+    height:52px;
+    font-size:20px;
+    font-family:PingFangSC-Regular;
+    color:rgba(76,81,85,1);
+    line-height:52px;
+    margin-left: 19px;
+}
+.contractUs .item p{
+    font-size:16px;
+    font-family:Ubuntu;
+    color:rgba(50,145,255,1);
+    line-height:24px;
+    margin-top: 19px;
+}

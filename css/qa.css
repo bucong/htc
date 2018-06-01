@@ -1,0 +1,79 @@
+/*常见问题*/
+.qa{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 64px 0 169px;
+}
+.qa .title{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.title h3{
+    height:48px;
+    line-height:48px;
+    font-size:34px;
+    font-family:PingFangSC-Regular;
+    color:rgba(76,81,85,1);
+    margin: 0 auto;
+    font-weight: normal;
+}
+.title h3:before{
+    vertical-align: 20%;
+    display: inline-block;
+    content: '';
+    width:100px;
+    height:1px;
+    margin-right: 20px;
+    background:rgba(216,216,216,1);
+}
+.title h3:after{
+    vertical-align: 20%;
+    display: inline-block;
+    content: '';
+    width:100px;
+    height:1px;
+    margin-left: 20px;
+    background:rgba(216,216,216,1);
+}
+.title .sec-title{
+    height:25px;
+    line-height:26px;
+    font-size:22px;
+    font-family:Ubuntu;
+    color:rgba(197,199,203,1);
+    margin: 10px 0 30px;
+}
+
+.qa .item{
+    padding: 30px 15px 24px 63px;
+    border-bottom: 1px solid rgb(237,237,237);
+}
+.qa .item .question{
+    height:28px;
+    line-height:28px;
+    font-size:20px;
+    font-family:PingFangSC-Regular;
+    color:rgba(76,81,85,1);
+}
+.qa .item .question:before{
+    display: inline-block;
+    content: 'Q';
+    width: 28px;
+    height:28px;
+    margin-left: -48px;
+    margin-right: 20px;
+    line-height:28px;
+    font-size:16px;
+    font-family:PingFangSC-Regular;
+    color:#fff;
+    background-color: #3291ff;
+    border-radius: 50%;
+    text-align: center;
+}
+.qa .item .answer{
+    font-size:16px;
+    font-family:Ubuntu;
+    color:rgba(140,140,140,1);
+    line-height:28px;
+    margin-top: 20px;
+}

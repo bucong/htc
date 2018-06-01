@@ -1,0 +1,116 @@
+.news {
+  padding-top: 64px;
+}
+.news .title {
+  text-align: center;
+}
+.news .title h3 {
+  height: 48px;
+  line-height: 48px;
+  font-size: 34px;
+  font-family: PingFangSC-Regular;
+  color: #4c5155;
+  margin: 0 auto;
+  font-weight: normal;
+}
+.news .title h3:before {
+  vertical-align: 20%;
+  display: inline-block;
+  content: '';
+  width: 100px;
+  height: 1px;
+  margin-right: 20px;
+  background: #d8d8d8;
+}
+.news .title h3:after {
+  vertical-align: 20%;
+  display: inline-block;
+  content: '';
+  width: 100px;
+  height: 1px;
+  margin-left: 20px;
+  background: #d8d8d8;
+}
+.news .title .sec-title {
+  height: 25px;
+  line-height: 26px;
+  font-size: 22px;
+  font-family: Ubuntu;
+  color: #c5c7cb;
+  margin: 10px 0 14px;
+}
+.news .news-list {
+  width: 970px;
+  margin: 0 auto 50px auto;
+}
+.news .news-list li {
+  padding: 50px 0 40px 0;
+  border-bottom: 1px solid #EDEDED;
+}
+.news .news-list li h5 {
+  font-size: 24px;
+  font-family: PingFangSC-Medium;
+  color: #4c5155;
+  line-height: 33px;
+  margin: 0 0 20px;
+  font-weight: 500;
+}
+.news .news-list li h6 {
+  font-size: 16px;
+  font-family: Ubuntu;
+  color: #8c8c8c;
+  line-height: 18px;
+  margin: 0 0 15px 0;
+  font-weight: 500;
+}
+.news .news-list li p {
+  font-size: 16px;
+  font-family: Ubuntu;
+  color: #4c5155;
+  line-height: 28px;
+  margin: 0 0 13px 0;
+}
+.news .news-list li a {
+  font-size: 16px;
+  font-family: PingFangSC-Regular;
+  color: #3291ff;
+  line-height: 22px;
+}
+.news .pagination-box {
+  width: 970px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.news .pagination-box .pagination {
+  margin: 0 0 50px 0;
+}
+.news-detail {
+  width: 970px;
+  margin: 80px auto;
+}
+.news-detail h5 {
+  text-align: center;
+  font-size: 24px;
+  font-family: PingFangSC-Medium;
+  color: #4c5155;
+  line-height: 33px;
+  margin: 0 0 20px;
+  font-weight: 500;
+}
+.news-detail h6 {
+  font-size: 16px;
+  font-family: Ubuntu;
+  color: #8c8c8c;
+  line-height: 18px;
+  margin: 0 0 30px 0;
+  font-weight: 500;
+  text-align: center;
+}
+.news-detail .rich-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+.news-detail .rich-text img {
+  max-width: 100%;
+}
