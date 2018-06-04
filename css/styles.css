@@ -1,12 +1,12 @@
 .navbar-default {
   background: #fff;
-  height: 60px;
   box-shadow: 0px 1px 9px 0px rgba(203, 208, 228, 0.2);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   border: none;
+  z-index: 999;
 }
 .navbar-default .navbar-collapse a {
   text-decoration: none;
@@ -26,9 +26,37 @@
 }
 .navbar-default .language {
   position: relative;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 .navbar-default .language ul {
   position: absolute;
-  top: 60px;
+  top: 68px;
   left: 0;
+  z-index: 100;
+  width: 124px;
+  background: rgba(255, 255, 255, 0.4);
+  display: none;
+}
+.navbar-default .language ul li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.navbar-default .language ul li a {
+  color: #fff;
+}
+.navbar-default .language ul li img {
+  width: 20px;
+  height: 14px;
+  margin-right: 15px;
+}
+.navbar-default .language ul li:hover {
+  background: #1B76FF;
+}
+.navbar-default .language ul li:hover a {
+  background: transparent;
+  color: #fff;
 }
