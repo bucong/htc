@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../css/nav.css"/>
     <link rel="stylesheet" href="../css/tabs.css"/>
     <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/media.css">
     <link rel="stylesheet" href="../css/solutionBlock.css">
     <link rel="stylesheet" href="../lib/video/video-js.min.css"/>
     <script src="../bodymovin/lottie.min.js"></script>
@@ -62,84 +64,97 @@
     })
 </script>
 <body>
-<div class="navWrap">
-    <div class="nav">
-        <div class="logo"><a href="../index.html"><img src="../images/logo_header_other@2x.png"/></a></div>
-        <ul class="navigation">
-            <li><a target="_blank" href="../whitePaper/htc-whitePaper-zh.pdf" data-localize="nav.menu1">白皮书</a>
-            </li>
-            <li class="active"><a href="solution.html" data-localize="nav.menu2">解决方案</a></li>
-            <li><a href="news.html" data-localize="nav.menu3">新闻</a></li>
-            <li><a href="qa.html" data-localize="nav.menu4">常见问题</a></li>
-            <li><a href="contractUs.html" data-localize="nav.menu5">联系我们</a></li>
-            <li class="language">
-                <img src="../images/icon_flag_china@2x.png" data-localize="nav.icon_other"/><a href="#"
-                                                                                               data-localize="nav.menu6">简体中文</a>
-                <ul>
-                    <li class="zh"><img src="../images/icon_flag_china@2x.png"/><a>简体中文</a></li>
-                    <li class="en"><img src="../images/icon_flag_eng@2x.png"/><a>English</a></li>
-                    <li class="jp"><img src="../images/icon_flag_Jap@2x.png"/><a>日本語</a></li>
-                </ul>
-            </li>
-        </ul>
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#coll3">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../index.html" class="navbar-brand">
+                <img src="../images/logo_header_other@2x.png"/>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="coll3">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a target="_blank" href="../whitePaper/htc-whitePaper-zh.pdf" data-localize="nav.menu1">白皮书</a></li>
+                <li class="active"><a href="../html/solution.html"  data-localize="nav.menu2">解决方案</a></li>
+                <li><a href="../html/news.html"  data-localize="nav.menu3">新闻</a></li>
+                <li><a href="../html/qa.html"  data-localize="nav.menu4">常见问题</a></li>
+                <li><a href="../html/contractUs.html"  data-localize="nav.menu5">联系我们</a></li>
+                <li class="language">
+                    <img src="../images/icon_flag_china@2x.png" data-localize="nav.icon_other"/><a href="#"  data-localize="nav.menu6">简体中文</a>
+                    <ul>
+                        <li class="zh"><img src="../images/icon_flag_china@2x.png"/><a>简体中文</a></li>
+                        <li class="en"><img src="../images/icon_flag_eng@2x.png"/><a>English</a></li>
+                        <li class="jp"><img src="../images/icon_flag_Jap@2x.png"/><a>日本語</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 
-<div class="tabs">
-    <div class="item">
-        <a href="description.html" class="img" id="bodymovin1"></a>
-        <span class="text" data-localize="tabs.item1">项目描述</span>
-    </div>
+<div class="tabs container">
+    <div class="row">
+        <div class="item col-lg-2 col-sm-4 col-xs-6">
+            <a href="description.html" class="img" id="bodymovin1"></a>
+            <span class="text" data-localize="tabs.item1">项目描述</span>
+        </div>
 
-    <div class="item">
-        <a href="solution.html" class="img" id="bodymovin2"></a>
-        <span class="text" data-localize="tabs.item2">行业解决方案</span>
-    </div>
-    <div class="item">
-        <a href="roadmap.html" class="img" id="bodymovin3"></a>
-        <span class="text" data-localize="tabs.item3">技术路线</span>
-    </div>
-    <div class="item">
-        <a href="#" class="img" id="bodymovin4"></a>
-        <span class="text active" data-localize="tabs.item4">小视频</span>
-    </div>
-    <div class="item">
-        <a href="distribute.html" class="img" id="bodymovin5"></a>
-        <span class="text" data-localize="tabs.item5">分配计划</span>
-    </div>
-    <div class="item">
-        <a href="prospects.html" class="img" id="bodymovin6"></a>
-        <span class="text" data-localize="tabs.item6">发展前景</span>
+        <div class="item col-lg-2 col-sm-4 col-xs-6">
+            <a href="solution.html" class="img" id="bodymovin2"></a>
+            <span class="text" data-localize="tabs.item2">行业解决方案</span>
+        </div>
+        <div class="item col-lg-2 col-sm-4 col-xs-6">
+            <a href="roadmap.html" class="img" id="bodymovin3"></a>
+            <span class="text" data-localize="tabs.item3">技术路线</span>
+        </div>
+        <div class="item col-lg-2 col-sm-4 col-xs-6">
+            <a href="video.html" class="img" id="bodymovin4"></a>
+            <span class="text active" data-localize="tabs.item4">小视频</span>
+        </div>
+        <div class="item col-lg-2 col-sm-4 col-xs-6">
+            <a href="distribute.html" class="img" id="bodymovin5"></a>
+            <span class="text" data-localize="tabs.item5">分配计划</span>
+        </div>
+        <div class="item col-lg-2 col-sm-4 col-xs-6">
+            <a href="prospects.html" class="img" id="bodymovin6"></a>
+            <span class="text" data-localize="tabs.item6">发展前景</span>
+        </div>
     </div>
 </div>
 
-<div id="solutionBlock">
-    <video style="margin-left: 25%;margin-top: 3%;margin-bottom:2%;width: 50%;height: 700px" id="example_video_1"
+<div id="solutionBlock container">
+    <video style="margin: 50px auto;max-width: 100%;" id="example_video_1"
            class="video-js vjs-default-skin"
-           controls preload="none" width="1200" height="500" poster="../images/video.png">
-        <source src="" type="video/mp4"/>
+           controls preload="none" poster="../images/video.png">
+        <source src="../video/Chinese.mp4" type="video/mp4"/>
     </video>
 </div>
 
 <div class="footer">
-    <div class="contact">
-        <div class="left">
-            <p data-localize="contact.phone">电话：+61 412 927 796</p>
-            <p data-localize="contact.email">邮箱：webmaster@jaz-intl.com</p>
-            <p data-localize="contact.adress">地址：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia</p>
-        </div>
-        <div class="right">
-            <p>
-                <a target="_blank" href="https://github.com/HealthTrace" class="github"></a>
-                <a class="telegram"></a>
-                <a class="wechat"></a>
-                <a class="twitter"></a>
-                <a class="facebook"></a>
-            </p>
+    <div class="contact container">
+        <div class="row">
+            <div class="left col-sm-6 col-xs-12">
+                <p data-localize="contact.phone">电话：+61 412 927 796</p>
+                <p data-localize="contact.email">邮箱：webmaster@jaz-intl.com</p>
+                <p data-localize="contact.adress">地址：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia</p>
+            </div>
+            <div class="right col-sm-6 col-xs-12">
+                <p>
+                    <a target="_blank" href="https://github.com/HealthTrace" class="github"></a>
+                    <a class="telegram"></a>
+                    <a class="wechat"></a>
+                    <a class="twitter"></a>
+                    <a class="facebook"></a>
+                </p>
+            </div>
         </div>
     </div>
     <div class="divide"></div>
-    <div class="copyright">
+    <div class="copyright container">
         <div class="logoBottom"><img src="../images/logo_bottom@2x.png"></div>
         <p>COPYRIGHT (©) 2018 HealthTrace</p>
     </div>

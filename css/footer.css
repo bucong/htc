@@ -1,34 +1,18 @@
 .footer{
-    min-width: 1200px;
     background-color: #f1f5f8;
 }
 .footer .contact{
-    -webkit-display:flex;
-    display:flex;
     -webkit-align-items:center;
-    align-items:center;
-    width: 1170px;
-    height: 200px;
-    margin: 0 auto;
-}
-.footer .contact .left{
-    width: 700px;
-    float: left;
 }
 .footer .contact .left p{
     margin: 20px 0;
-    height:25px;
     line-height:25px;
     font-size:18px;
     font-family:PingFangSC-Regular;
     color:rgba(197,199,203,1);
 }
 .footer .contact .right{
-    width: 470px;
-    float: right;
-}
-.footer .contact .right p{
-    /*overflow: hidden;*/
+    padding: 60px 15px 30px 15px;
 }
 .footer .contact .right a{
     float: right;
@@ -36,6 +20,9 @@
     height: 40px;
     margin-left: 25px;
     position: relative;
+}
+.footer .contact .right a:last-child{
+    margin-left: 0;
 }
 .footer .contact .right .wechat:hover:after{
     display: block;
@@ -91,17 +78,16 @@
     background: url("../images/icon_reddit_hover@2x.png");
 }
 .footer .divide{
-    width:1198px;
+    width:100%;
     height:1px;
     margin: 0 auto;
     background:rgba(224,224,224,1);
 }
 .footer .copyright{
-    width: 1170px;
-    height:140px;
-    line-height: 140px;
-    margin: 0 auto;
+    line-height: 40px;
     overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .footer .logoBottom{
     float: left;

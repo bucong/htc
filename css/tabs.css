@@ -1,13 +1,9 @@
 .tabs{
-    width: 1210px;
-    margin: 0 auto;
     border-bottom: 1px solid rgb(237,237,237);;
     overflow: hidden;
-    padding: 0 125px;
 }
 .item{
-    float: left;
-    width: 160px;
+    text-align: center;
     padding-bottom: 50px;
     /*background: #eeeeee;*/
     text-align: center;

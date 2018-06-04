@@ -1,0 +1,24 @@
+@media all and (max-width: 768px) {
+  .navbar-default .language ul {
+    width: 100%;
+  }
+  .goTop {
+    right: 30px;
+    bottom: 50px;
+  }
+  .title h3 {
+    font-size: 26px;
+  }
+  .title h3:before {
+    width: 50px;
+  }
+  .title h3:after {
+    width: 50px;
+  }
+  .timeAxis {
+    display: none;
+  }
+  .timeAxis-sm {
+    display: block;
+  }
+}

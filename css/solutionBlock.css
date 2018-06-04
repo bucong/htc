@@ -2,8 +2,6 @@ body{
     font-family:'PingFangSC-Regular','微软雅黑';
 }
 .solutionBlock{
-    width: 1170px;
-    margin: 0 auto;
     padding-top: 96px;
 }
 .title{
@@ -47,7 +45,6 @@ body{
 }
 
 .solutionBlock .info{
-    padding: 0 100px;
     overflow: hidden;
 }
 .solutionBlock .info p{
@@ -58,14 +55,13 @@ body{
     line-height:30px;
 }
 .solutionBlock .info img{
+    max-width: 100%;
     display: block;
     margin: 0 auto 35px;
 }
 
 
 .case-box{
-    width: 970px;
-    margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 256px;
 }
@@ -74,30 +70,24 @@ body{
     text-align: center;
 }
 
-.case-box .case{
-    margin-left: -18px;
-    margin-right: -17px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .case-box .item{
     position: relative;
-    width: 300px;
     height: 300px;
-    margin-left: 18px;
-    margin-right: 17px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto 30px auto;
     text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .case-box .item1{
-    background: url("../images/pic_case1@2x.png");
+    background-image: url("../images/pic_case1@2x.png");
 }
 .case-box .item2{
-    background: url("../images/pic_case2@2x.png");
+    background-image: url("../images/pic_case2@2x.png");
 }
 .case-box .item3{
-    background: url("../images/pic_case3@2x.png");
+    background-image: url("../images/pic_case3@2x.png");
 }
 .case-box .item .hover{
     position: absolute;
@@ -144,8 +134,6 @@ body{
 
 /*时间轴样式*/
 .timeAxis{
-    width: 1170px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -234,13 +222,37 @@ body{
 .timeAxis .right .event{
     justify-content: flex-start;
 }
-
-
-
-
-
-
-
+.timeAxis-sm{
+    padding-top: 30px;
+    padding-bottom: 200px;
+    display: none;
+}
+.timeAxis-sm li{
+    text-align: center;
+}
+.timeAxis-sm li .date{
+    font-size: 28px;
+    font-family: Ubuntu;
+    color: rgba(76,81,85,1);
+    line-height: 54px;
+}
+.timeAxis-sm li .event{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.timeAxis-sm li .event span{
+    font-size: 24px;
+    font-family: PingFangSC-Regular;
+    color: rgba(115,121,156,1);
+    line-height: 33px;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.timeAxis-sm li .event img{
+    vertical-align: middle;
+}
 
 
 

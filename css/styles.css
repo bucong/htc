@@ -1,3 +1,6 @@
+article {
+  display: none;
+}
 .navbar-default {
   background: #fff;
   box-shadow: 0px 1px 9px 0px rgba(203, 208, 228, 0.2);
@@ -8,11 +11,15 @@
   border: none;
   z-index: 999;
 }
+.navbar-default .navbar-collapse.in {
+  overflow-y: visible;
+}
 .navbar-default .navbar-collapse a {
   text-decoration: none;
   line-height: 30px;
   color: #BBC1D3;
   font-size: 14px;
+  padding: 15px 12px;
 }
 .navbar-default .navbar-collapse a:hover {
   color: #73799c;
@@ -29,13 +36,14 @@
   height: 60px;
   display: flex;
   align-items: center;
+  padding-left: 12px;
 }
 .navbar-default .language ul {
   position: absolute;
   top: 68px;
   left: 0;
   z-index: 100;
-  width: 124px;
+  width: 132px;
   background: rgba(255, 255, 255, 0.4);
   display: none;
 }
@@ -44,6 +52,7 @@
   display: flex;
   align-items: center;
   padding-left: 15px;
+  background: rgba(27, 118, 255, 0.6);
 }
 .navbar-default .language ul li a {
   color: #fff;
