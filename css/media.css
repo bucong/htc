@@ -21,4 +21,13 @@
   .timeAxis-sm {
     display: block;
   }
+  .originBlock .case .list {
+    padding-left: 50px;
+  }
+  .originBlock .case .item:before {
+    left: -30px;
+  }
+  .originBlock .case .list .name:before {
+    left: -43px;
+  }
 }

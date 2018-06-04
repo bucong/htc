@@ -1,9 +1,8 @@
 
 /*联系我们*/
 .contractUs{
-    width: 1170px;
-    margin: 0 auto;
-    padding: 64px 0 200px;
+    padding-top: 64px;
+    padding-bottom: 200px;
 }
 .contractUs .title{
     margin-bottom: 50px;
@@ -46,28 +45,13 @@
 }
 
 .contractUs .list{
-    padding: 30px 83px 0px 82px;
     overflow: hidden;
 }
 .contractUs .list .item{
     position: relative;
-    float: left;
-    width: 300px;
-    height: 200px;
-    margin: 0 18px 0 17px;
+    min-height: 200px;
     padding:35px 20px 20px 20px;
-}
-.contractUs .list .item:after{
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    content: "";
-    width: 40px;
-    height: 1px;
-    background-color: rgb(216,216,216);
-}
-.contractUs .item img{
-    float: left;
+    text-align: center;
 }
 .contractUs .item span{
     display: inline-block;

@@ -1,13 +1,9 @@
-
-
-.originBlock{
-    width: 1170px;
-    margin: 0 auto;
-    padding:  0px 100px;
-}
 .originBlock .desc{
     padding: 64px 0 40px;
     border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.originBlock .desc img{
+    max-width: 100%;
 }
 .originBlock .desc .title{
     /*height:45px;*/
@@ -28,6 +24,9 @@
 .originBlock .case{
     padding: 64px 0 200px;
 }
+.originBlock .case img{
+    max-width: 100%;
+}
 .originBlock .case .title{
     height:45px;
     line-height:45px;
@@ -36,7 +35,6 @@
     color:rgba(76,81,85,1);
 }
 .originBlock .case .secTitle{
-    height:25px;
     font-size:18px;
     font-family:Ubuntu-Medium;
     color:rgba(76,81,85,1);

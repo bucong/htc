@@ -1,8 +1,6 @@
 /*常见问题*/
 .qa{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 64px 0 169px;
+    padding: 64px 15px 169px 15px;
 }
 .qa .title{
     margin-bottom: 50px;
@@ -45,7 +43,7 @@
 }
 
 .qa .item{
-    padding: 30px 15px 24px 63px;
+    padding: 30px 0 24px 48px;
     border-bottom: 1px solid rgb(237,237,237);
 }
 .qa .item .question{
