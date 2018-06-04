@@ -1,3 +1,30 @@
+@media all and (max-width: 500px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+@media all and (min-width: 501px) and (max-width: 768px) {
+  .carousel-caption {
+    bottom: 20px;
+  }
+  .carousel-caption img {
+    margin-bottom: 16px;
+    width: 300px;
+  }
+  .carousel-caption h1 {
+    font-size: 30px;
+    margin-bottom: 14px;
+  }
+  .carousel-caption p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .carousel-caption .btn-custom {
+    line-height: 32px;
+    font-size: 14px;
+    width: 120px;
+  }
+}
 @media all and (max-width: 768px) {
   .navbar-default .language ul {
     width: 100%;
@@ -29,5 +56,38 @@
   }
   .originBlock .case .list .name:before {
     left: -43px;
+  }
+}
+@media all and (min-width: 767px) and (max-width: 992px) {
+  .carousel-caption img {
+    margin-bottom: 24px;
+    width: 350px;
+  }
+  .carousel-caption h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .carousel-caption p {
+    margin-bottom: 30px;
+  }
+  .carousel-caption .btn-custom {
+    line-height: 36px;
+    font-size: 16px;
+    width: 150px;
+  }
+}
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  .carousel-caption img {
+    margin-bottom: 36px;
+  }
+  .carousel-caption h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+  .carousel-caption p {
+    margin-bottom: 56px;
+  }
+  .carousel-caption .btn-custom {
+    line-height: 46px;
   }
 }

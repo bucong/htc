@@ -1,10 +1,31 @@
 //小于400px
-@media all and (max-width: 400px) {
-
+@media all and (max-width: 500px) {
+  .carousel-caption{
+    display: none;
+  }
 }
 // 小屏幕（平板，小于等于 768px）
-@media all and (min-width: 401px) and (max-width: 768px) {
-
+@media all and (min-width: 501px) and (max-width: 768px) {
+  .carousel-caption{
+    bottom: 20px;
+    img{
+      margin-bottom: 16px;
+      width: 300px;
+    }
+    h1{
+      font-size: 30px;
+      margin-bottom: 14px;
+    }
+    p{
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+    .btn-custom{
+      line-height: 32px;
+      font-size: 14px;
+      width: 120px;
+    }
+  }
 }
 @media all and (max-width: 768px){
   .navbar-default .language ul{
@@ -41,15 +62,43 @@
 }
 //中等屏幕（桌面显示器，小于等于 992px）
 @media all and (min-width: 767px) and (max-width: 992px) {
-
+  .carousel-caption{
+    img{
+      margin-bottom: 24px;
+      width: 350px;
+    }
+    h1{
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    p{
+      margin-bottom: 30px;
+    }
+    .btn-custom{
+      line-height: 36px;
+      font-size: 16px;
+      width: 150px;
+    }
+  }
 }
 @media all and (max-width: 992px){
 
 }
 // 大屏幕（大桌面显示器，大于等于 1200px）
 @media all and (min-width: 993px) and (max-width: 1200px) {
-
-}
-@media all and (max-width: 1200px){
-
+  .carousel-caption{
+    img{
+      margin-bottom: 36px;
+    }
+    h1{
+      font-size: 48px;
+      margin-bottom: 24px;
+    }
+    p{
+      margin-bottom: 56px;
+    }
+    .btn-custom{
+      line-height: 46px;
+    }
+  }
 }
