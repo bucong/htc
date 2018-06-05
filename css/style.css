@@ -342,7 +342,6 @@ a:hover {
     padding:70px 35px 38px;
 }
 .title h3{
-    height:48px;
     line-height:48px;
     font-size:34px;
     font-family:PingFangSC-Regular;
@@ -644,46 +643,6 @@ body{
 .solutionBlock{
     padding-top: 96px;
 }
-.title{
-    margin-bottom: 70px;
-    text-align: center;
-}
-.title h3{
-    height:48px;
-    line-height:48px;
-    font-size:34px;
-    font-family:PingFangSC-Regular;
-    color:rgba(76,81,85,1);
-    margin: 0 auto;
-    font-weight: normal;
-}
-.title h3:before{
-    vertical-align: 20%;
-    display: inline-block;
-    content: '';
-    width:100px;
-    height:1px;
-    margin-right: 20px;
-    background:rgba(216,216,216,1);
-}
-.title h3:after{
-    vertical-align: 20%;
-    display: inline-block;
-    content: '';
-    width:100px;
-    height:1px;
-    margin-left: 20px;
-    background:rgba(216,216,216,1);
-}
-.title .sec-title{
-    height:25px;
-    line-height:26px;
-    font-size:22px;
-    font-family:Ubuntu;
-    color:rgba(197,199,203,1);
-    margin: 10px 0 30px;
-}
-
 .solutionBlock .info{
     overflow: hidden;
 }
@@ -1078,42 +1037,6 @@ body{
     margin-bottom: 50px;
     text-align: center;
 }
-.title h3{
-    height:48px;
-    line-height:48px;
-    font-size:34px;
-    font-family:PingFangSC-Regular;
-    color:rgba(76,81,85,1);
-    margin: 0 auto;
-    font-weight: normal;
-}
-.title h3:before{
-    vertical-align: 20%;
-    display: inline-block;
-    content: '';
-    width:100px;
-    height:1px;
-    margin-right: 20px;
-    background:rgba(216,216,216,1);
-}
-.title h3:after{
-    vertical-align: 20%;
-    display: inline-block;
-    content: '';
-    width:100px;
-    height:1px;
-    margin-left: 20px;
-    background:rgba(216,216,216,1);
-}
-.title .sec-title{
-    height:25px;
-    line-height:26px;
-    font-size:22px;
-    font-family:Ubuntu;
-    color:rgba(197,199,203,1);
-    margin: 10px 0 30px;
-}
-
 .contractUs .list{
     overflow: hidden;
 }
@@ -1148,41 +1071,6 @@ body{
     margin-bottom: 50px;
     text-align: center;
 }
-.title h3{
-    line-height:48px;
-    font-size:34px;
-    font-family:PingFangSC-Regular;
-    color:rgba(76,81,85,1);
-    margin: 0 auto;
-    font-weight: normal;
-}
-.title h3:before{
-    vertical-align: 20%;
-    display: inline-block;
-    content: '';
-    width:100px;
-    height:1px;
-    margin-right: 20px;
-    background:rgba(216,216,216,1);
-}
-.title h3:after{
-    vertical-align: 20%;
-    display: inline-block;
-    content: '';
-    width:100px;
-    height:1px;
-    margin-left: 20px;
-    background:rgba(216,216,216,1);
-}
-.title .sec-title{
-    height:25px;
-    line-height:26px;
-    font-size:22px;
-    font-family:Ubuntu;
-    color:rgba(197,199,203,1);
-    margin: 10px 0 30px;
-}
-
 .qa .item{
     padding: 30px 0 24px 48px;
     border-bottom: 1px solid rgb(237,237,237);
