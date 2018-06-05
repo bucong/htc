@@ -462,6 +462,7 @@ a:hover {
     /*background: url("../images/border.png") no-repeat top center;*/
 }
 .partner .item img{
+    width: 370px;
     max-width: 100%;
     margin: 15px 0;
 }
@@ -636,9 +637,6 @@ a:hover {
 .slide-3d .controls a:hover{
     color: #ffffff;
     /*background:rgba(56,54,61,1);*/
-}
-.slide-3d .controls .item-prev {
-    margin-top: -25px;
 }
 
 body{

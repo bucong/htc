@@ -1,7 +1,33 @@
-//小于400px
+//小于500px
 @media all and (max-width: 500px) {
   .carousel-caption{
     display: none;
+  }
+  .slide-carousel .controls{
+    display: none;
+  }
+  .slide-3d .item-list{
+    width: 280px;
+  }
+  .slide-3d .item-list li{
+    width: 140px;
+    height: 140px;
+  }
+  .slide-3d .item-list li.item2{
+    transform: translate3d(70px, 0, 0) scale(1);
+  }
+  .slide-3d .item-list li.item3{
+    transform: translate3d(140px, 0, 0) scale(0.67);
+  }
+  .timeAxis-sm li .event{
+    justify-content: flex-start;
+  }
+  .partner .item img{
+    width: 260px;
+    margin: 5px 0;
+  }
+  .footer .copyright p{
+    float: left;
   }
 }
 // 小屏幕（平板，小于等于 768px）
@@ -31,6 +57,10 @@
   .navbar-default .language ul{
     width: 100%;
   }
+  .carousel-indicators li,.carousel-indicators .active{
+    width: 16px;
+    height: 16px;
+  }
   .goTop{
     right: 30px;
     bottom: 50px;
@@ -58,6 +88,11 @@
   }
   .originBlock .case .list .name:before{
     left: -43px;
+  }
+}
+@media all and (min-width: 768px){
+  .container{
+    max-width: 100%;
   }
 }
 //中等屏幕（桌面显示器，小于等于 992px）

@@ -2,6 +2,32 @@
   .carousel-caption {
     display: none;
   }
+  .slide-carousel .controls {
+    display: none;
+  }
+  .slide-3d .item-list {
+    width: 280px;
+  }
+  .slide-3d .item-list li {
+    width: 140px;
+    height: 140px;
+  }
+  .slide-3d .item-list li.item2 {
+    transform: translate3d(70px, 0, 0) scale(1);
+  }
+  .slide-3d .item-list li.item3 {
+    transform: translate3d(140px, 0, 0) scale(0.67);
+  }
+  .timeAxis-sm li .event {
+    justify-content: flex-start;
+  }
+  .partner .item img {
+    width: 260px;
+    margin: 5px 0;
+  }
+  .footer .copyright p {
+    float: left;
+  }
 }
 @media all and (min-width: 501px) and (max-width: 768px) {
   .carousel-caption {
@@ -28,6 +54,11 @@
 @media all and (max-width: 768px) {
   .navbar-default .language ul {
     width: 100%;
+  }
+  .carousel-indicators li,
+  .carousel-indicators .active {
+    width: 16px;
+    height: 16px;
   }
   .goTop {
     right: 30px;
@@ -56,6 +87,11 @@
   }
   .originBlock .case .list .name:before {
     left: -43px;
+  }
+}
+@media all and (min-width: 768px) {
+  .container {
+    max-width: 100%;
   }
 }
 @media all and (min-width: 767px) and (max-width: 992px) {

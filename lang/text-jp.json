@@ -124,6 +124,7 @@
   "news": {
     "title": "ニュース",
     "secTitle": "NEWS",
+    "view": "報道を調べる",
     "list":{
       "item1":{
         "name":"Cooperation with the company of Tian Mei",

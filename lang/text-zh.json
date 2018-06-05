@@ -124,6 +124,7 @@
   "news":{
     "title": "新闻",
     "secTitle": "NEWS",
+    "view": "查看报道",
     "list":{
       "item1":{
         "name":"与天美公司达成合作",
