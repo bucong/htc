@@ -347,6 +347,7 @@ a:hover {
     font-family:PingFangSC-Regular;
     color:rgba(76,81,85,1);
     margin: 0 auto;
+    text-align: center;
 }
 .title h3:before{
     vertical-align: 20%;
@@ -373,6 +374,7 @@ a:hover {
     font-family:Ubuntu;
     color:rgba(197,199,203,1);
     margin: 10px 0 30px;
+    text-align: center;
 }
 .member h4{
     line-height:35px;
