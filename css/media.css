@@ -1,4 +1,10 @@
 @media all and (max-width: 500px) {
+  .title h3:before {
+    display: none;
+  }
+  .title h3:after {
+    display: none;
+  }
   .carousel-caption {
     display: none;
   }
@@ -7,6 +13,9 @@
   }
   .slide-3d .item-list {
     width: 280px;
+  }
+  .slide-3d .desc {
+    bottom: -140px;
   }
   .slide-3d .item-list li {
     width: 140px;
@@ -87,6 +96,9 @@
   }
   .originBlock .case .list .name:before {
     left: -43px;
+  }
+  .footer .contact .right p {
+    justify-content: center;
   }
 }
 @media all and (min-width: 768px) {

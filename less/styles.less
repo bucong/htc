@@ -17,14 +17,21 @@ article{
 .footer .contact .right{
   padding: 60px 15px 30px 15px;
 }
+.footer .contact .right p{
+  display: flex;
+  justify-content: flex-end;
+}
 .footer .contact .right a{
-  float: right;
+  display: inline-block;
   width: 40px;
   height: 40px;
   margin-left: 25px;
   position: relative;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.footer .contact .right a:last-child{
+.footer .contact .right a:first-child{
   margin-left: 0;
 }
 .footer .contact .right .wechat:hover:after{
@@ -45,40 +52,40 @@ article{
   z-index: 100;
 }
 .facebook{
-  background: url("../images/icon_facebook@2x.png");
+  background-image: url("../images/icon_facebook@2x.png");
 }
 .facebook:hover{
-  background: url("../images/icon_facebook_hover@2x.png");
+  background-image: url("../images/icon_facebook_hover@2x.png");
 }
 .twitter{
-  background: url("../images/icon_twitter@2x.png");
+  background-image: url("../images/icon_twitter@2x.png");
 }
 .twitter:hover{
-  background: url("../images/icon_twitter_hover@2x.png");
+  background-image: url("../images/icon_twitter_hover@2x.png");
 }
 .wechat{
-  background: url("../images/icon_wechat@2x.png");
+  background-image: url("../images/icon_wechat@2x.png");
 }
 .wechat:hover{
-  background: url("../images/icon_wechat_hover@2x.png");
+  background-image: url("../images/icon_wechat_hover@2x.png");
 }
 .github{
-  background: url("../images/icon_github@2x.png");
+  background-image: url("../images/icon_github@2x.png");
 }
 .github:hover{
-  background: url("../images/icon_github_hover@2x.png");
+  background-image: url("../images/icon_github_hover@2x.png");
 }
 .telegram{
-  background: url("../images/icon_telegram@2x.png");
+  background-image: url("../images/icon_telegram@2x.png");
 }
 .telegram:hover{
-  background: url("../images/icon_telegram_hover@2x.png");
+  background-image: url("../images/icon_telegram_hover@2x.png");
 }
 .reddit{
-  background: url("../images/icon_reddit@2x.png");
+  background-image: url("../images/icon_reddit@2x.png");
 }
 .reddit:hover{
-  background: url("../images/icon_reddit_hover@2x.png");
+  background-image: url("../images/icon_reddit_hover@2x.png");
 }
 .footer .divide{
   width:100%;
